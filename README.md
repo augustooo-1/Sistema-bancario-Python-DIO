@@ -1,24 +1,35 @@
 # Sistema Bancário Simples em Python
 
-Este é um sistema bancário básico desenvolvido em Python. Com funcionalidades para depósito, saque e verificação de extrato, o sistema impõe limitações para saques, como um máximo de 3 saques diários e R$ 500,00 por saque.
+## Descrição
+
+Este projeto implementa um sistema bancário básico usando Python. Oferece funcionalidades essenciais como:
+
+- **Depósito**: Adiciona fundos à conta e registra a transação.
+- **Saque**: Permite retiradas, respeitando limites diários e de valor.
+- **Extrato**: Mostra todas as transações realizadas e o saldo atual.
 
 ## Funcionalidades
 
-- **Depósito**: Adicione fundos à conta e mantenha um registro das transações.
-- **Saque**: Realize retiradas respeitando limitações e controle diário.
-- **Extrato**: Visualize todas as transações e saldo atual da conta.
+### Depósito
+Ao realizar um depósito, o valor é adicionado ao saldo da conta e registrado para futura consulta no extrato.
 
-## Como Executar
+### Saque
+O sistema permite até 3 saques por dia, com um limite máximo de R$ 500,00 por saque. Verificações são realizadas para garantir que o saque não exceda o saldo disponível.
 
-1. Clone o repositório.
-2. Execute o programa Python.
-3. Siga as instruções no menu para interagir com o sistema.
+### Extrato
+A funcionalidade de extrato exibe todas as transações realizadas na conta, permitindo uma visão detalhada das atividades e do saldo atual.
 
-## Limitações e Controle
+## Limitações
 
-O sistema incorpora controles para garantir que os saques não excedam o saldo e respeitem as limitações diárias. Fornece feedback imediato sobre operações e saldo.
+- Máximo de 3 saques por dia.
+- Limite de R$ 500,00 por saque.
+- Controle de saldo para evitar saques sem fundos.
+
+## Execução
+
+Para executar o sistema, certifique-se de ter Python instalado. Depois, simplesmente rode o script e siga as instruções apresentadas no console.
 
 ## Contribuições
 
-S
+Sinta-se à vontade para contribuir com melhorias, sugestões ou correções neste projeto.
 
